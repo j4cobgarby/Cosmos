@@ -9,7 +9,7 @@ namespace Cosmos.System.Plugs.System
     {
         public static Guid NewGuid()
         {
-            return new Guid(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+            return Guid.newGuid();
         }
     }
 }
